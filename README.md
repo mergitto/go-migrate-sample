@@ -2,6 +2,12 @@
 **golangにおけるmigrationの各種ツールのサンプル**
 
 # 環境構築
+go get
+```
+go get github.com/pilu/fresh
+go get github.com/rubenv/sql-migrate/...
+```
+
 - dockerが使える状態にしておいてください。
 ```
 docker-compose build

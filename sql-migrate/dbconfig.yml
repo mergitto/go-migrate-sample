@@ -1,0 +1,4 @@
+development:
+  dialect: mysql
+  datasource: root:mysql@tcp(127.0.0.1)/sql_migrate?parseTime=true
+  dir: ./
