@@ -9,8 +9,8 @@
 |go-gormigrate/gormigrate   |355  |?       |×  |×  |go code   |
 |DavidHuie/gomigrate        |161  |up/down |×  |×  |sql       |
 
-※ 2019/09/30時点, star数100以下は未調査
-※ CLIがないツールは説明しない
+※ 2019/09/30時点, star数100以下は未調査  
+※ CLIがないツールは説明しない  
 
 |名称  |Star数  |
 |---|---|
