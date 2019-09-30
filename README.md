@@ -2,9 +2,8 @@
 **golangにおけるmigrationの各種ツールのサンプル**
 
 # 環境構築
-go get
 ```
-go get github.com/pilu/fresh
+go mod download
 ```
 
 - dockerが使える状態にしておいてください。
