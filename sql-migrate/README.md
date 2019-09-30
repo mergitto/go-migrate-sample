@@ -7,19 +7,7 @@ go get -v github.com/rubenv/sql-migrate/...
 ```
 
 ## 設定
-- `./dbconfig.yml`の設定
-- migration file作成
-```
-sql-migrate new create_users
-```
-- 作成されたmigrationファイルの中身の修正
-```sql
--- +migrate Up
-CREATE TABLE IF NOT EXISTS users (id int);
-
--- +migrate Down
-DROP TABLE IF EXISTS users;
-```
+- `./dbconfig.yml`の設定(今回はもうしてあります)
 - `dbconfig.yml`で設定したDBを作成する
 - dockerが立ち上がっていれば下記のコマンドでmysqlに入りDB作成
 ```
@@ -31,6 +19,19 @@ mysql> create database <database_name>
 - 現在のversionの確認
 ```
 sql-migrate status
+```
+
+- migration file作成
+```
+sql-migrate new create_users
+```
+- 作成されたmigrationファイルの中身の修正
+```sql
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS users (id int);
+
+-- +migrate Down
+DROP TABLE IF EXISTS users;
 ```
 
 - migrationを実行
