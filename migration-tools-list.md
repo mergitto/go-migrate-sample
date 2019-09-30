@@ -5,8 +5,8 @@
 |golang-migrate/migrate     |2984 |up/down |ok |×  |sql       |
 |sql-migrate                |1457 |up/down |ok |ok |sql       |
 |goose                      |988  |up/down |ok |×  |sql       |
-|go-gormigrate/gormigrate   |355  |?       |×  |×  |go code   |
 |rambler                    |431  |up/down |×  |ok |sql       |
+|go-gormigrate/gormigrate   |355  |?       |×  |×  |go code   |
 |DavidHuie/gomigrate        |161  |up/down |×  |×  |sql       |
 
 ※ 2019/09/30時点, star数100以下は未調査
