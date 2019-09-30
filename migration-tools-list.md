@@ -10,7 +10,7 @@
 |DavidHuie/gomigrate        |161  |up/down |×  |×  |sql       |
 
 ※ 2019/09/30時点, star数100以下は未調査
-※ go-gormigrate/gormigrateはCLIがないため今回は↑の表での説明に留める
+※ CLIがないツールは説明しない
 
 |名称  |Star数  |
 |---|---|
