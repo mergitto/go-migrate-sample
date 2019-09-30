@@ -24,6 +24,7 @@ goose status
 ```
 goose create create_users_table sql
 ```
+
 - 作成されたmigrationファイルの中身の修正
 ```sql
 -- +migrate Up
@@ -35,10 +36,10 @@ DROP TABLE IF EXISTS users;
 
 - migrationを実行
 ```
-sql-migrate up
+goose up
 ```
 
 - migrationをrollback
 ```
-sql-migrate down
+goose down
 ```
