@@ -20,10 +20,9 @@ mysql> create database <database_name>
 goose status
 ```
 
-- migration作成
-- migration file作成
+- migration file作成(今回はusersテーブル作成)
 ```
-goose create create_users
+goose create create_users_table sql
 ```
 - 作成されたmigrationファイルの中身の修正
 ```sql
