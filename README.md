@@ -5,7 +5,6 @@
 go get
 ```
 go get github.com/pilu/fresh
-go get github.com/rubenv/sql-migrate/...
 ```
 
 - dockerが使える状態にしておいてください。
