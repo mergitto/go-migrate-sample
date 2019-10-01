@@ -2,7 +2,6 @@
 https://github.com/golang-migrate/migrate
 
 ## install
-- mysql用にget
 ```
 brew install golang-migrate
 ```
