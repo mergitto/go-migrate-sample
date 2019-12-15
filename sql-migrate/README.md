@@ -15,6 +15,8 @@ $ mysql -u root -p --host 127.0.0.1 (password: mysql)
 mysql> create database <database_name>
 ```
 
+このサンプルでは`sql_migrate`で作成しています
+
 ## 各種コマンド
 - 現在のversionの確認
 ```
