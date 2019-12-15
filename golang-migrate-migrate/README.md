@@ -22,6 +22,9 @@ $ mysql -u root -p --host 127.0.0.1 (password: mysql)
 mysql> create database <database_name>
 ```
 
+このサンプルでは`golang_migrate`を想定しています
+
+
 ### 各種コマンド
 - migration file作成(今回はusersテーブル作成)
 ```
