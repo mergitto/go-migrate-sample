@@ -14,7 +14,7 @@ $ mysql -u root -p --host 127.0.0.1 (password: mysql)
 mysql> create database <database_name>
 ```
 
-このサンプルでは`goose`で作成しています
+このサンプルでは`goose`を想定しています
 
 ### 各種コマンド
 - statusの確認
